@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88970a0117c062eed55fa8728fc43833",
+    "content-hash": "a678729e4af583d158274743da126c97",
     "packages": [
         {
             "name": "brick/math",
@@ -5741,6 +5741,41 @@
             "time": "2024-11-21T01:49:47+00:00"
         },
         {
+            "name": "wakeup/admin",
+            "version": "dev-feature/package_test",
+            "dist": {
+                "type": "path",
+                "url": "packages/Wakeup/Admin",
+                "reference": "19d4ed7bd3ade7b75476c6d29c07885caf63a960"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Wakeup\\Admin\\Providers\\AdminServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wakeup\\Admin\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thức Nguyễn",
+                    "email": "nguyenthanhthuc.2k@gmail.com"
+                }
+            ],
+            "description": "admin package",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "webmozart/assert",
             "version": "1.11.0",
             "source": {
@@ -8078,7 +8113,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wakeup/admin": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
