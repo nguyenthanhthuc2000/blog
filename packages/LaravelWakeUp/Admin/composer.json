@@ -1,0 +1,25 @@
+{
+    "name": "laravelwakeup/admin",
+    "description": "admin package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LaravelWakeUp\\Admin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thức Nguyễn",
+            "email": "nguyenthanhthuc.2k@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelWakeUp\\Admin\\Providers\\AdminServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
