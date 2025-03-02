@@ -1,8 +1,9 @@
 {
     "name": "laravelwakeup/admin",
-    "description": "admin package",
+    "description": "Admin package for Laravel",
     "type": "library",
     "license": "MIT",
+    "keywords": ["laravel", "admin package"],
     "autoload": {
         "psr-4": {
             "LaravelWakeUp\\Admin\\": "src/"
@@ -14,6 +15,10 @@
             "email": "nguyenthanhthuc.2k@gmail.com"
         }
     ],
+    "require": {
+        "php": ">=8.2",
+        "illuminate/support": "^12.0"
+    },
     "extra": {
         "laravel": {
             "providers": [
